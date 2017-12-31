@@ -33,3 +33,15 @@ puts (        'Eating her curds and whey,'.center(line_width))
 puts (          'When along came a spider'.center(line_width))
 puts (           'Who sat down beside her'.center(line_width))
 puts ( 'And scared her poor shoe dog away'.center(line_width))
+puts ''
+line_width = 40
+str = '--> text <--'
+puts (str.ljust( line_width))
+puts (str.center( line_width))
+puts (str.rjust( line_width))
+puts (str.ljust(line_width/2) + str.rjust(line_width/2))
+puts
+puts 'WHADDAYA WANT?!'
+job_request = gets.chomp
+puts 'WHADDAYA MEAN "' + job_request.upcase + '"?!? YOU\'RE FIRED!!'
+puts
